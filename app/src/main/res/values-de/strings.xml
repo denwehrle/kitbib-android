@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="no_data">Keine Daten</string>
+    <string name="no_summary_data">Noch keine Daten vorhanden. Leihe Bücher aus, damit sie hier angezeigt werden.</string>
+    <string name="no_fee_data">Noch keine Gebühren vorhanden.</string>
+    <string name="start_download">Download wurde gestartet. Das kann einen Moment dauern.</string>
+
+    <string name="title_section_summary">Kontoauszug</string>
+    <string name="title_section_fees">Gebühren</string>
+    <string name="title_section_learningPlaces">Lernplätze</string>
+
+    <string name="action_about">Impressum</string>
+    <string name="action_logout">Logout</string>
+    <string name="menu_logout">Möchtest du dich wirklich ausloggen?</string>
+
+    <string name="title_activity_login">KIT Bibliothek Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Alias / Benutzernummer</string>
+    <string name="prompt_password">Passwort</string>
+    <string name="action_sign_in">Anmelden</string>
+    <string name="action_sign_in_short">Anmelden</string>
+
+    <string name="error_invalid_email">Ungültiger Alias</string>
+    <string name="error_invalid_password">Ungültiges Passwort</string>
+    <string name="error_incorrect_password">Alias oder Passwort sind falsch</string>
+    <string name="error_field_required">Bitte ausfüllen</string>
+
+    <!-- Learning places items -->
+    <plurals name="learning_place_usage">
+        <item quantity="other">%1$d von %2$d Plätzen frei</item>
+        <item quantity="one">ein Platz frei</item>
+    </plurals>
+    <string name="learning_place_no_data">Keine aktuellen Daten</string>
+
+    <plurals name="remaining_count">
+        <item quantity="other">Noch %1$d Tage</item>
+        <item quantity="one">Noch %1$d Tag</item>
+    </plurals>
+
+    <string name="fee_value">%1$s €</string>
+
+    <string name="notification_title">Rückgabefrist fast erreicht!</string>
+    <string name="notification_text">Bei einigen deiner ausgeliehenen Medien läuft demnächste die Rückgabefrist ab. Bei verspäteter Rückgabe erfolgt eine kostenpflichtige Mahnung.</string>
+    <string name="notification_action">Kontoauszug anzeigen</string>
+
+    <string name="order_info">Buch bestellt</string>
+    <string name="order_info2">Buch abholbereit</string>
+    <string name="connection_failed">Keine Verbindung</string>
+    <string name="connection_retry">Wiederholen</string>
+    <string name="extention_failed">Bei der Verlängerung gab es einen Fehler.</string>
+    <string name="extention_success">Verlängerung wurde durchgeführt.</string>
+
+
+    <!-- About -->
+    <string name="about_text">\nKITbib ist eine Client-Applikation, die dafür entwickelt wurde, einen mobilen Zugriff auf die Services der <a href="http://www.bibliothek.kit.edu">KIT Bibliothek</a> zu ermöglichen. Neben dem Kontoauszug und der Gebührenübersicht kann man in der App die aktuelle Lernplatzbelegung einsehen.\n
+        \nVerantwortlicher im Sinne §5 TMG:\nDennis Wehrle\n<a href="mailto:denwehrle@gmail.com">denwehrle@gmail.com</a>
+    </string>
+
+    <string name="about_data">\n<b>Hinweise zum Datenschutz</b>
+        \nDie Eingabe von personenbezogenen Daten (z. B. Nutzerkennung) erfolgt auf freiwilliger Basis. Diese werden nur dazu verwendet, den Nutzer gegen den Webservice der Bibliothek des Karlsruher Institut für Technologie zu authentifizieren und werden dabei verschlüsselt übertragen. Sie sind zu keinem Zeitpunkt von Dritten einsehbar und werden verschlüsselt auf dem Gerät abgelegt.\n
+        \nWir weisen darauf hin, dass die Datenübertragung im Internet Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.\n
+    \nDer Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.\n
+    \n<i>Amazon Partnerprogramm</i>\nWir sind Teilnehmer des Partnerprogramms von Amazon EU, das zur Bereitstellung eines Mediums für Websites konzipiert wurde, mittels dessen durch die Platzierung von Links zu <a href="http://www.amazon.de">Amazon.de</a> Werbekostenerstattung verdient werden kann. Amazon setzt Cookies ein, um die Herkunft der Bestellungen nachvollziehen zu können. Unter anderem kann Amazon erkennen, dass Sie den Partner-Link geöffnet haben. Auf den Verkaufsseiten gilt die Datenschutzerklärung des Unternehmens.\n
+    \n<b>Haftung für Links</b>
+    \nUnser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.\n
+    \n<b>Urheberrecht</b>
+        \nDie durch die Betreiber von KITbib erstellte App unterliegt dem deutschen Urheberrecht. Soweit die Inhalte in dieser App nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
+    </string>
+
+    <string name="about_licence">\n<b>Lizenzen</b>
+    \nAppIcon und Design angelehnt an das CD des KIT.
+    \nQuelle: <a href="https://www.pkm.kit.edu/ci_cd.php">Corporate Design</a>\n
+    \njsoup \nCopyright © 2009 - 2013 Jonathan Hedley
+        \nLizenz: <a href="http://jsoup.org/">MIT</a>\n
+        \nUniversal Image Loader \nCopyright © 2011 - 2015 Sergey Tarasevich
+        \nLizenz: <a href="https://github.com/nostra13/Android-Universal-Image-Loader">Apache License, Version 2.0</a>
+    </string>
+
+</resources>

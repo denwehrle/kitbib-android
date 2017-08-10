@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="cursor"
+            type="android.database.Cursor" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/learning_place_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:text="no_data"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            bind:learningPlaceLocation="@{cursor}" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/learning_place_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="no_data"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                bind:learningPlaceName="@{cursor}" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dp">
+
+                <com.denwehrle.kitbib.features.common.BarView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    bind:learningPlaceBar="@{cursor}" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:paddingTop="8dp"
+                android:textSize="14sp"
+                bind:learningPlaceDescription="@{cursor}" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>
