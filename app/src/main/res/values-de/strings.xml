@@ -24,9 +24,9 @@
     <string name="action_sign_in">Anmelden</string>
     <string name="action_sign_in_short">Anmelden</string>
 
-    <string name="error_invalid_email">Ungültiger Alias</string>
+    <string name="error_invalid_email">Ungültiger Login</string>
     <string name="error_invalid_password">Ungültiges Passwort</string>
-    <string name="error_incorrect_password">Alias oder Passwort sind falsch</string>
+    <string name="error_incorrect_password">Login oder Passwort sind falsch</string>
     <string name="error_field_required">Bitte ausfüllen</string>
 
     <!-- Learning places items -->

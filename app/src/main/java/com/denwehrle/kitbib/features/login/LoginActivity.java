@@ -114,11 +114,6 @@ public class LoginActivity extends AccountAuthenticatorActivity {
             mEmailView.setError(getString(R.string.error_field_required));
             focusView = mEmailView;
             cancel = true;
-
-        } else if (!isEmailValid(email)) {
-            mEmailView.setError(getString(R.string.error_invalid_email));
-            focusView = mEmailView;
-            cancel = true;
         }
 
         if (cancel) {
@@ -165,9 +160,6 @@ public class LoginActivity extends AccountAuthenticatorActivity {
         }
     }
 
-    private boolean isEmailValid(String email) {
-        return email.startsWith("@");
-    }
 
     private boolean isPasswordValid(String password) {
         return password.length() > 4;
